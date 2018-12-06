@@ -1,0 +1,18 @@
+#gameboard {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
+.square{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+.square.orange{
+    background: orange;
+}
+.square.white{
+    background: black;
+}
