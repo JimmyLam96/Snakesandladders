@@ -7,6 +7,19 @@ h2{
     font-size: 18px;
 }
 
+#b{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #F7941D;
+    color: white;
+    border: none;
+    padding-left: 15px;
+    text-align: center;
+}
+
+#b:hover{
+    color: black;
+}
+
 #left{
     float: left;
     width: 150px;

@@ -68,9 +68,6 @@ function timer(e) {
     
 }
     
-/* we attach a function to a button's click event
- * after the DOM finished loading
- */
 window.onload = function () {
     document.getElementById("b").onclick = clicked;
     timer(document.getElementById("timer"));
